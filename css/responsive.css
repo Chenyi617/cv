@@ -1,0 +1,23 @@
+
+@media (max-width: 768px) {
+    body>.container {
+        padding-bottom: 30px;
+    }
+    nav#main-menu {
+        display: none;
+    }
+    .navbar-default{
+        display: none;
+    }
+    #trigger {
+        display: block;
+        opacity: 1;
+        margin-left: 15px;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    #trigger {
+        position: absolute;
+    }
