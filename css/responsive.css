@@ -3,6 +3,7 @@
     body>.container {
         padding-bottom: 30px;
     }
+    body{background:white; }
     nav#main-menu {
         display: none;
     }
